@@ -18,6 +18,8 @@ async function displayMeme() {
         image.alt = meme.name;
         image.width = 200;
 
+        //just adding YOLO
+
         const memeContainer = 
             document.querySelector("#meme");
         memeContainer.appendChild(image);
